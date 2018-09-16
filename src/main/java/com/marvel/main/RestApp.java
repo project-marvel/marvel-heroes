@@ -1,12 +1,12 @@
-package com.marvel.marvelheroes;
+package com.marvel.main;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class MarvelHeroesApplication {
+public class RestApp {
 
 	public static void main(String[] args) {
-		SpringApplication.run(MarvelHeroesApplication.class, args);
+		SpringApplication.run(RestApp.class, args);
 	}
 }
